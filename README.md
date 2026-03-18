@@ -65,6 +65,13 @@ mysqldump -u root -p --routines --triggers --events ecommerce > ecommerce_full.s
 
 ---
 
+### Backup de outro banco (company)
+
+Como parte do desafio, também foi realizado o backup de um segundo banco de dados (company), demonstrando a aplicação do mysqldump em múltiplos bancos.
+```bash
+mysqldump -u root -p company > company_backup.sql
+```
+
 ### Recovery
 
 Para restaurar o banco:
