@@ -88,4 +88,4 @@ Foi necessário remover a linha `SET @@GLOBAL.GTID_PURGED` do arquivo para evita
 ---
 
 
-Desenvolvido por: **Danilo**
+Desenvolvido por: **Danillo**
